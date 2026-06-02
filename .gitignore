@@ -1,0 +1,8 @@
+*.log
+*.bak
+*.tmp
+.env
+secrets*
+*.key
+*.pem
+*.crt
