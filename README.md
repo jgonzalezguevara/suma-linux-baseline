@@ -4,6 +4,17 @@ Baseline example for Linux systems managed with SUSE Multi-Linux Manager / Uyuni
 
 This repository contains a practical structure for organizing Salt states, security settings, packages, services and operational checks in enterprise Linux environments.
 
+## Related Documentation
+
+Additional documentation about Linux baselines, SUSE Multi-Linux Manager, Uyuni, hardening and enterprise operations:
+
+https://desdeelservidor.es
+
+Technical articles and guides:
+
+https://desdeelservidor.es/guias.html
+
+
 ## Goals
 
 - Provide a clean Salt state structure
