@@ -1,12 +1,12 @@
-# Architecture
+# Arquitectura
 
-This repository follows a simple Salt structure intended for SUSE Multi-Linux Manager or Uyuni labs.
+Este repositorio sigue una estructura sencilla de Salt orientada a laboratorios y entornos gestionados mediante SUSE Multi-Linux Manager o Uyuni.
 
-The baseline is divided into areas:
+El baseline se divide en varias áreas funcionales:
 
 - packages
 - security
 - services
 - logging
 
-The goal is to keep each responsibility isolated and easy to extend.
+El objetivo es mantener cada responsabilidad aislada, facilitar el mantenimiento y permitir la ampliación progresiva del baseline.

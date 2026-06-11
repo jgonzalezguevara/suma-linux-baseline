@@ -1,38 +1,37 @@
 # SUMA Linux Baseline
 
-Baseline example for Linux systems managed with SUSE Multi-Linux Manager / Uyuni.
+Ejemplo de baseline Linux para sistemas gestionados mediante SUSE Multi-Linux Manager o Uyuni.
 
-This repository contains a practical structure for organizing Salt states, security settings, packages, services and operational checks in enterprise Linux environments.
+Este repositorio contiene una estructura práctica para organizar estados Salt, configuraciones de seguridad, paquetes, servicios y comprobaciones operativas en entornos Linux empresariales.
 
-## Related Documentation
+## Documentación relacionada
 
-Additional documentation about Linux baselines, SUSE Multi-Linux Manager, Uyuni, hardening and enterprise operations:
+Documentación adicional sobre baselines Linux, SUSE Multi-Linux Manager, Uyuni, hardening y operación de sistemas:
 
 https://desdeelservidor.es
 
-Technical articles and guides:
+Artículos y guías técnicas:
 
 https://desdeelservidor.es/guias.html
 
+## Objetivos
 
-## Goals
+- Proporcionar una estructura limpia de estados Salt
+- Documentar conceptos de baseline Linux
+- Facilitar configuraciones repetibles
+- Mejorar la consistencia operativa
+- Servir como referencia para laboratorios SUMA y Uyuni
 
-- Provide a clean Salt state structure
-- Document Linux baseline concepts
-- Support repeatable system configuration
-- Improve operational consistency
-- Serve as a lab reference for SUSE Manager / Uyuni environments
+## Áreas cubiertas
 
-## Areas Covered
+- Paquetes base
+- Hardening SSH
+- Registro y auditoría
+- Servicios
+- Baseline de seguridad
+- Comprobaciones operativas
 
-- Base packages
-- SSH hardening
-- Logging
-- Services
-- Security baseline
-- Operational checks
-
-## Structure
+## Estructura
 
 salt/
   security/
@@ -48,7 +47,7 @@ docs/
 scripts/
   validate-baseline.sh
 
-## Technologies
+## Tecnologías
 
 - SUSE Multi-Linux Manager
 - Uyuni
@@ -57,7 +56,26 @@ scripts/
 - Bash
 - Enterprise Linux
 
-## Author
+## Autor
 
-Jose Gonzalez  
+José González
+
 https://desdeelservidor.es
+
+## Más recursos
+
+📚 Biblioteca Linux y DevOps
+
+https://desdeelservidor.es/biblioteca-linux-devops.html
+
+👨‍💻 Sobre el autor
+
+https://desdeelservidor.es/autor-jose-gonzalez.html
+
+🎓 Formación Linux y Troubleshooting
+
+https://desdeelservidor.es/formacion.html
+
+📰 Newsletter Linux y Sistemas
+
+https://desdeelservidor.es/newsletter.html

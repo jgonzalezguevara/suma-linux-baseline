@@ -1,11 +1,11 @@
-# Usage
+# Uso
 
-Example usage in a SUMA / Uyuni lab:
+Ejemplo de utilización en un laboratorio SUMA o Uyuni:
 
-1. Copy the Salt states into the organization state tree.
-2. Assign the state to a test system or group.
-3. Apply the highstate.
-4. Validate the result.
-5. Extend the baseline progressively.
+1. Copiar los estados Salt al árbol de estados de la organización.
+2. Asignar el estado a un sistema o grupo de pruebas.
+3. Aplicar el highstate.
+4. Validar el resultado.
+5. Ampliar progresivamente el baseline.
 
-This repository is intended as a lab reference and should be reviewed before production use.
+Este repositorio sirve como referencia de laboratorio y debe revisarse antes de utilizarse en entornos de producción.

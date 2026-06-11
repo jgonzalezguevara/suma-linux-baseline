@@ -1,22 +1,22 @@
 # Linux Baseline
 
-Initial baseline areas:
+Áreas iniciales incluidas en el baseline.
 
-## Packages
+## Paquetes
 
-Basic operational packages required for troubleshooting and administration.
+Paquetes básicos necesarios para administración, operación y troubleshooting de sistemas Linux.
 
 ## SSH
 
-- Disable root login
-- Disable password authentication
-- Prefer SSH keys
+- Deshabilitar acceso directo de root
+- Deshabilitar autenticación mediante contraseña cuando sea posible
+- Priorizar el uso de claves SSH
 
-## Services
+## Servicios
 
-- chrony enabled
-- auditd enabled
+- chrony habilitado
+- auditd habilitado
 
-## Logging
+## Registro y auditoría
 
-Basic audit service enabled for traceability.
+Servicio de auditoría activo para mejorar la trazabilidad operativa y de seguridad.
